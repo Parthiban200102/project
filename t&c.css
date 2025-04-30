@@ -1,0 +1,101 @@
+
+.foot {
+    display: flex;
+    justify-content: center;
+}
+
+.fcon {
+    border: 2px solid black;
+}
+
+.lnk {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+/* tab view start */
+@media (max-width: 770px) {
+    .atc {
+        width: 120px;
+        margin-left: -4px !important;
+        margin-top: 5px !important;
+    }
+
+    .lbtn {
+        margin-top: 5px !important;
+        margin-left: -4px !important;
+    }
+
+    .fcol1 {
+        padding-left: 70px !important;
+    }
+
+    .fcol2 {
+        padding-left: 60px !important;
+    }
+
+    .fcol3 {
+        padding-left: 70px !important;
+    }
+
+    .pmeth {
+        margin-left: 50px !important;
+    }
+
+    .smedia {
+        margin-right: 60px !important;
+    }
+
+}
+
+/* tab view end*/
+
+
+/* card details start */
+@media (max-width: 1220px) {
+
+    /* .dis{width: 40%;}
+    .apri{width: 40%;} */
+    .atc {
+        width: 100%;
+    }
+
+    .lbtn {
+        width: 100%;
+    }
+}
+
+/* card details end */
+
+/* mob view */
+@media(max-width: 430px) {
+    .atc {
+        margin-left: -4px !important;
+    }
+
+    .lbtn {
+        margin-left: -4px !important;
+        margin-top: 5px !important;
+    }
+
+    .smedia {
+        margin-top: 60px !important;
+        margin-left: -300px !important;
+    }
+}
+
+/* mob view */
+
+/* container align */
+@media (max-width: 992px) {
+    #cont{
+        margin-left: 100px;
+    }
+}
+
+/* container align */
